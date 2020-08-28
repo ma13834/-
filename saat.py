@@ -45,7 +45,7 @@ def StartCountdown():
 def BackBtn():
     NewForm.destroy()
     btn_toggle.config(state=NORMAL)
-    lbl_text.config(text="10")
+    lbl_text.config(text="11")
     
     
 
@@ -61,7 +61,7 @@ BtnGroup.pack(side=BOTTOM)
 #=======================================LABEL WIDGETS=============================================
 lbl_title = Label(Top, width=500, text="mohammadali timer", font=('times new roman', 16))
 lbl_title.pack(fill=X)
-lbl_text = Label(TextField, text="10", font=('arial', 120))
+lbl_text = Label(TextField, text="11", font=('arial', 120))
 lbl_text.pack(fill=BOTH) 
  
 #=======================================Button WIDGETS=============================================
