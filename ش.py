@@ -24,5 +24,3 @@ while i <10 :
     print('NEXT TABLE')
     time.sleep(2)
     i = i + 1
-import os
-os.system("cls")
